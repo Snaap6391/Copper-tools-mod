@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(cotm.MOD_ID)
 public class cotm
 {
-    public static final String MOD_ID = "coppertoolsmod";
+    public static final String MOD_ID = "cotm";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
