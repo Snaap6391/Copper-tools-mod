@@ -1,15 +1,15 @@
-package com.snaap6391.coppertoolsmod.modstuff;
+package com.snaap6391.cotm.modstuff;
 
-import com.snaap6391.coppertoolsmod.coppertoolsmod;
+import com.snaap6391.cotm.cotm;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class Moditems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, coppertoolsmod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, cotm.MOD_ID);
 
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             () -> new SwordItem(modtier.COPPER, 2, -2.4f, new Item.Properties().tab

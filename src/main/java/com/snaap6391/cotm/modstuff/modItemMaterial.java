@@ -1,6 +1,6 @@
-package com.snaap6391.coppertoolsmod.modstuff;
+package com.snaap6391.cotm.modstuff;
 
-import com.snaap6391.coppertoolsmod.coppertoolsmod;
+import com.snaap6391.cotm.cotm;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
@@ -59,7 +59,7 @@ public enum modItemMaterial implements ArmorMaterial {
     }
 
     public String getName() {
-        return coppertoolsmod.MOD_ID + ":" + this.name;
+        return cotm.MOD_ID + ":" + this.name;
     }
 
     public float getToughness() {

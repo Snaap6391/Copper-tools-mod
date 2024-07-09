@@ -1,4 +1,4 @@
-package com.snaap6391.coppertoolsmod.modstuff;
+package com.snaap6391.cotm.modstuff;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;

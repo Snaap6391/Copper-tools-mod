@@ -1,6 +1,6 @@
-package com.snaap6391.coppertoolsmod;
+package com.snaap6391.cotm;
 
-import com.snaap6391.coppertoolsmod.modstuff.Moditems;
+import com.snaap6391.cotm.modstuff.Moditems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,15 +11,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(coppertoolsmod.MOD_ID)
-public class coppertoolsmod
+@Mod(cotm.MOD_ID)
+public class cotm
 {
     public static final String MOD_ID = "coppertoolsmod";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
 
-    public coppertoolsmod() {
+    public cotm() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         Moditems.register(eventBus);
