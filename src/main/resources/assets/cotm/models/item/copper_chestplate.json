@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "coppertoolsmod:copper_chestplate_item"
+    "layer0": "cotm:copper_chestplate_item"
   }
 }
